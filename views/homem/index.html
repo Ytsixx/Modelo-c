@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homem</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <style>
+        /* Definir uma boa fonte e centralizar tudo */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5; /* Cor de fundo suave */
+            margin: 0;
+            flex-direction: column;
+        }
+
+        /* Container principal */
+        .conteiner {
+            width: 80vw;  /* Largura relativa à tela */
+            height: 100vh; /* Altura total da tela */
+            background-color: brown;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Rodapé fixo no topo */
+        footer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: brown;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Rodapé dentro do container */
+        .rodape {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            background-color: #668cfc;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 10px;
+        }
+
+        /* Conteúdo */
+        .conteudo img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Rodapé fixo no topo -->
+    <footer>Meu Rodapé no Topo</footer>
+
+    <!-- Container principal -->
+    <div class="conteiner">
+        <div class="rodape">
+            <p>Logoo</p>
+        </div>
+        <div class="conteudo">
+            <img src="" alt="Imagem">
+        </div>
+    </div>
+
+</body>
+</html>
